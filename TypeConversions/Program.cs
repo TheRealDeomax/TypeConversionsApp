@@ -11,3 +11,7 @@ Console.WriteLine(value:$"This is valid: {isValidInt}. The number was {age}.");
 
 Console.WriteLine(age + 15);
 
+double testDouble = age;
+
+Console.WriteLine(value:$"{testDouble.GetType()} is {testDouble}");
+
